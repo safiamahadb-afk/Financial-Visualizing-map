@@ -3,7 +3,7 @@ import pandas as pd
 # 1. This is our "Brain" - it decides the category
 def categorize_expense(description):
     description = description.lower()
-    if 'coffee' in description or 'chipotle' in description:
+    if 'coffee' in description or 'pizza' in description:
         return 'Food & Drink'
     elif 'shell' in description:
         return 'Transportation'
